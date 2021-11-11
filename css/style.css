@@ -64,14 +64,17 @@ header .my_btn {
 }
 
 /* Jumbotron */
-.jumbotron {
-    height: 500px;
-    margin-top: 7.5rem;
+.jumbotron .jumbo-top {
+    height: 675px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
     color: var(--white);
+}
+
+.jumbotron .jumbo-top .jumbo-top-contain {
+    height: 100%;
 }
 
 .jumbotron .my_btn {
@@ -80,4 +83,13 @@ header .my_btn {
 
 .jumbotron .returnal-img {
     width: 50%;
+}
+
+.jumbotron .jumbo-bottom .thumb-container {
+    border-radius: 25px;
+}
+
+.jumbotron .jumbo-bottom .thumb-container img {
+    width: 100%;
+    border-radius: 25px;
 }
