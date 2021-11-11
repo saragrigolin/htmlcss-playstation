@@ -1,6 +1,6 @@
 /* General */
 :root {
-    --nav-top-bg: #000000;
+    --black: #000000;
     --nav-btn-bg: #363636;
 }
 
@@ -9,24 +9,32 @@ html {
     font-family: Helvetica, arial, sans-serif;
 }
 
-/* Header */
-header .nav-top {
-    background-color: var(--nav-top-bg);
+a,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    color: var(--black);
 }
 
-header .nav-top img {
-    height: 14px;
+/* Header */
+header .nav-top {
+    background-color: var(--black);
+}
+
+header .nav-top svg {
+    height: 15px;
 }
 
 header .nav-bottom {
     height: 60px;
 }
 
-header .nav-bottom img.lens {
+header img.lens {
     height: 25px;
 }
 
-header .nav-bottom li>img {
+header .navbar li a>img {
     height: 10px;
 }
 
