@@ -1,6 +1,7 @@
 /* General */
 :root {
-
+    --nav-top-bg: #000000;
+    --nav-btn-bg: #363636;
 }
 
 html {
@@ -8,3 +9,28 @@ html {
     font-family: Helvetica, arial, sans-serif;
 }
 
+/* Header */
+header .nav-top {
+    background-color: var(--nav-top-bg);
+}
+
+header .nav-top img {
+    height: 14px;
+}
+
+header .nav-bottom {
+    height: 60px;
+}
+
+header .nav-bottom img.lens {
+    height: 25px;
+}
+
+header .nav-bottom li>img {
+    height: 10px;
+}
+
+header .nav-bottom .my_btn {
+    font-size: 1rem;
+    background-color: var(--nav-btn-bg);
+}
