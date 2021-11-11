@@ -42,3 +42,7 @@ header .nav-bottom .my_btn {
     font-size: 1rem;
     background-color: var(--nav-btn-bg);
 }
+
+.navbar-light .navbar-nav .nav-link.my_nav {
+    color: var(--black);
+}
