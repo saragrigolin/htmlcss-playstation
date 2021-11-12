@@ -27,6 +27,8 @@ a:active,
 a:focus {
     text-decoration: none;
     color: var(--black);
+    height: 100%;
+    display: inline-block;
 }
 
 .my_btn {
@@ -246,6 +248,11 @@ main img.w-70 {
     color: var(--white);
 }
 
+.new-releases .nr a {
+    color: var(--white);
+    font-size: 1.2rem;
+}
+
 h3.regular {
     font-size: 1.6rem;
     font-weight: 400;
@@ -303,7 +310,7 @@ h3.regular {
     outline: 2px solid var(--ps-now-btn);
     color: var(--black);
 }
-.playstation-now .play-now .my_btn
+
 .playstation-now .play-now .my_btn:hover,
 .playstation-now .play-now .my_btn:active,
 .playstation-now .play-now .my_btn:focus {
