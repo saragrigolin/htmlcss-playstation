@@ -7,6 +7,7 @@
     --light-blue: #176DCC;
     --blue: #2D64E6;
     --grey-text: #727272;
+    --grey-bg: #1F1F1F;
 
 }
 
@@ -186,4 +187,24 @@ main .playstation5 img.w-70 {
 
 .it-takes-two .my_btn {
     background-color: var(--orange-btn);
+}
+
+/* New releases */
+.new-releases .nr {
+    background-color: var(--grey-bg);
+    color: var(--white);
+}
+
+h3.regular {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.new-releases .nr .nr-thumb-container {
+    border-radius: 1.5em;
+}
+
+.new-releases .nr .nr-thumb-container img {
+    width: 100%;
+    border-radius: 1.5em;
 }
