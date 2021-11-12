@@ -4,6 +4,10 @@
     --white: #ffffff;
     --nav-btn-bg: #363636;
     --orange-btn: #CD3D0F;
+    --light-blue: #176DCC;
+    --blue: #2D64E6;
+    --grey-text: #727272;
+
 }
 
 html {
@@ -40,8 +44,24 @@ header .my_btn {
     background-color: var(--nav-btn-bg);
 }
 
+.navbar-light .navbar-nav ul.my_dropdown_menu {
+    border: 0;
+    margin-top: -1px;
+}
+
 .navbar-light .navbar-nav .nav-link.my_nav {
     color: var(--black);
+}
+
+.navbar-light .navbar-nav .dropdown .dropdown-toggle::after {
+    font-family: "FontAwesome 6 Free";
+    content: "\f078";
+    border: 0;
+}
+
+.navbar-light .navbar-nav .dropdown .dropdown-toggle.show::after {
+    font-family: "FontAwesome 6 Free";
+    content: "\f077";
 }
 
 .navbar-light .navbar-nav .nav-item .navbar-sublink {
@@ -65,7 +85,6 @@ header .my_btn {
 
 /* Jumbotron */
 .jumbotron .jumbo-top {
-    height: 675px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position:center;
@@ -74,7 +93,7 @@ header .my_btn {
 }
 
 .jumbotron .jumbo-top .jumbo-top-contain {
-    height: 100%;
+    padding-top: 10em;
 }
 
 .jumbotron .my_btn {
@@ -86,10 +105,44 @@ header .my_btn {
 }
 
 .jumbotron .jumbo-bottom .thumb-container {
-    border-radius: 25px;
+    border-radius: 1.5em;
+    border: 1px solid var(--white);
+    padding: 0.2rem;
+}
+
+.jumbotron .jumbo-bottom .bordered-blue {
+    border: 1px solid var(--light-blue);
 }
 
 .jumbotron .jumbo-bottom .thumb-container img {
     width: 100%;
-    border-radius: 25px;
+    border-radius: 1.5em;
+}
+
+/* Main */
+
+main .grey {
+    color: var(--grey-text);
+}
+
+main p.bigger-text {
+    font-size: 1.3rem;
+}
+
+main .blue {
+    color: var(--light-blue);
+}
+
+main h2.my_h2 {
+    font-size: 2.5rem;
+    line-height: 1;
+}
+
+main h3.my_h3 {
+    font-size: 2.5rem;
+}
+
+main .playstation5 .my_btn {
+    background-color: var(--blue);
+    border: 0;
 }
