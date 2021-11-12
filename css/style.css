@@ -10,6 +10,8 @@
     --grey-bg: #1F1F1F;
     --ps-plus-bg: #BEBCBB;
     --ps-plus-btn: #D9DADC;
+    --ps-now-bg: #161C3B;
+    --ps-now-btn: #F5F5F5;
 
 }
 
@@ -216,6 +218,22 @@ h3.regular {
 .playstation-plus .play-plus .my_btn {
     background-color: var(--ps-plus-btn);
     color: var(--blue);
+    border: 0;
+}
+
+/* Playstation Now */
+.playstation-now .logo-img {
+    width: 50%;
+}
+
+.playstation-now .play-now {
+    background-color: var(--ps-now-bg);
+    color: var(--white);
+}
+
+.playstation-now .play-now .my_btn {
+    background-color: var(--ps-now-btn);
+    color: var(--black);
     border: 0;
 }
 
