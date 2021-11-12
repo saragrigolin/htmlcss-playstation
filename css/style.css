@@ -58,8 +58,7 @@ header .my_btn {
     content: "\f078";
     border: 0;
     font-weight: 900;
-    font-size: 0.8em;
-    
+    font-size: 0.8em;   
 }
 
 .navbar-light .navbar-nav .dropdown .dropdown-toggle.show::after {
@@ -140,12 +139,12 @@ main .blue {
     color: var(--light-blue);
 }
 
-main h2.my_h2 {
+h2.my_h2 {
     font-size: 2.5rem;
     line-height: 1;
 }
 
-main h3.my_h3 {
+h3.my_h3 {
     font-size: 2.5rem;
 }
 
@@ -170,4 +169,21 @@ main .playstation5 .container-thumb.active {
 
 main .playstation5 img.w-70 {
     width: 70%;
+}
+
+/* It takes two */
+.it-takes-two .itt {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    color: var(--white);
+}
+
+.it-takes-two .logo-img {
+    width: 50%;
+}
+
+.it-takes-two .my_btn {
+    background-color: var(--orange-btn);
 }
