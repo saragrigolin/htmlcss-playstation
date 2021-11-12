@@ -8,6 +8,8 @@
     --blue: #2D64E6;
     --grey-text: #727272;
     --grey-bg: #1F1F1F;
+    --ps-plus-bg: #BEBCBB;
+    --ps-plus-btn: #D9DADC;
 
 }
 
@@ -74,20 +76,6 @@ header .my_btn {
     font-size: 0.5em;
     padding-right: 0.5em;
     vertical-align: middle;
-}
-
-@media screen and (max-width: 991.98px) {
-    .navbar-collapse .navbar-nav .nav-item .my_search_button {
-        width: 100%;
-        border: 1px solid var(--black);
-        padding: 0.5em;
-        margin-top: 0.5em;
-    }
-
-    .navbar-collapse .navbar-nav .nav-item .my_btn {
-        width: 50%;
-        padding: 0.3em;
-    }
 }
 
 /* Jumbotron */
@@ -214,4 +202,40 @@ h3.regular {
     background-color: var(--blue);
     border: 0;
     width: 120px;
+}
+
+/* Playstation Plus */
+.playstation-plus .logo-img {
+    width: 50%;
+}
+
+.playstation-plus .play-plus {
+    background-color: var(--ps-plus-bg);
+}
+
+.playstation-plus .play-plus .my_btn {
+    background-color: var(--ps-plus-btn);
+    color: var(--blue);
+    border: 0;
+}
+
+@media screen and (max-width: 991.98px) {
+    .navbar-collapse .navbar-nav .nav-item .my_search_button {
+        width: 100%;
+        border: 1px solid var(--black);
+        padding: 0.5em;
+        margin-top: 0.5em;
+    }
+
+    .navbar-collapse .navbar-nav .nav-item .my_btn {
+        width: 50%;
+        padding: 0.3em;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .playstation-plus .play-plus .pp-contain {
+        padding: 3rem 0;
+    }
+    
 }
