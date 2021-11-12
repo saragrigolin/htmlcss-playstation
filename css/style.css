@@ -168,7 +168,7 @@ main .playstation5 .container-thumb.active {
     filter: opacity(1);
 }
 
-main .playstation5 img.w-70 {
+main img.w-70 {
     width: 70%;
 }
 
@@ -207,4 +207,11 @@ h3.regular {
 .new-releases .nr .nr-thumb-container img {
     width: 100%;
     border-radius: 1.5em;
+}
+
+/* Explore Playstation 4 */
+.explore-playstation4 .container-thumb .my_btn {
+    background-color: var(--blue);
+    border: 0;
+    width: 120px;
 }
