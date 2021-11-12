@@ -249,7 +249,7 @@ footer .footer {
     padding-top: 7rem;
     padding-bottom: 7rem;
     color: var(--white);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 footer .footer .footer-top img {
@@ -262,8 +262,10 @@ footer .footer a {
 
 footer .footer li {
     list-style-type: none;
+}
 
-
+footer .footer-bottom img {
+    width: 170px;
 }
 
 @media screen and (max-width: 991.98px) {
@@ -280,6 +282,10 @@ footer .footer li {
     }
 
     footer .footer .footer-link {
+        margin-top: 4rem;
+    }
+
+    footer .footer .footer-bottom {
         margin-top: 4rem;
     }
 }
