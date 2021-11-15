@@ -1,0 +1,385 @@
+/* General */
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --nav-btn-bg: #363636;
+    --orange-btn: #CD3D0F;
+    --light-blue: #176DCC;
+    --blue: #2D64E6;
+    --grey-text: #727272;
+    --grey-bg: #1F1F1F;
+    --ps-plus-bg: #BEBCBB;
+    --ps-plus-btn: #D9DADC;
+    --ps-now-bg: #161C3B;
+    --ps-now-btn: #F5F5F5;
+    --footer-bg: #00439C;
+
+}
+
+html {
+    font-size: 100%;
+    font-family: Helvetica, arial, sans-serif;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    color: var(--black);
+    height: 100%;
+    display: inline-block;
+}
+
+.my_btn {
+    border: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 2px solid transparent;
+}
+
+.my_btn:hover,
+.my_btn:active,
+.my_btn:focus {
+    border: 2px solid white;
+}
+
+/* Header */
+header .nav-top {
+    background-color: var(--black);
+}
+
+header .nav-top svg {
+    height: 15px;
+}
+
+header .navbar-bottom ul.my_dropdown_menu a>img {
+    height: 3rem;
+}
+
+header li a>img.lens {
+    height: 25px;
+}
+
+header .my_btn {
+    background-color: var(--nav-btn-bg);
+    outline: 2px solid var(--nav-btn-bg);
+}
+
+header .my_btn:hover,
+header .my_btn:active,
+header .my_btn:focus {
+    opacity: 0.8;
+}
+
+.navbar-light .navbar-nav ul.my_dropdown_menu {
+    border: 0;
+    margin-top: -1px;
+}
+
+.navbar-light .navbar-nav .nav-link.my_nav {
+    color: var(--black);
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:active,
+.navbar-light .navbar-nav .nav-link:focus {
+    color: var(--light-blue);
+}
+
+.navbar-light .navbar-nav .dropdown .dropdown-toggle::after {
+    font-family: "Font Awesome 6 Free";
+    content: "\f078";
+    border: 0;
+    font-weight: 900;
+    font-size: 0.8em;
+    vertical-align: middle;
+    color: var(--grey-text);   
+}
+
+.navbar-light .navbar-nav .dropdown .dropdown-toggle.show::after {
+    font-family: "Font Awesome 6 Free";
+    content: "\f077";
+}
+
+.navbar-light .navbar-nav .disc {
+    list-style-type: disc;
+    color: var(--light-blue);
+}
+
+.navbar-light .navbar-nav a.dropdown-item {
+    padding: 0.25rem 0;
+}
+
+.navbar-light .navbar-nav .dropdown-item.ps5:hover {
+    background-color: var(--white);
+    box-shadow: 0px 0px 15px 3px grey;
+}
+
+.navbar-light .navbar-nav .dropdown-item.link:hover {
+    background-color: var(--white);
+    box-shadow: 0;
+    color: var(--light-blue);
+}
+
+/* Jumbotron */
+.jumbotron .jumbo-top {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    color: var(--white);
+}
+
+.jumbotron .jumbo-top .jumbo-top-contain {
+    padding-top: 17em;
+}
+
+.jumbotron .my_btn {
+    background-color: var(--orange-btn);
+    outline: 2px solid var(--orange-btn);
+}
+
+.jumbotron .my_btn:hover,
+.it-takes-two .my_btn:hover,
+.jumbotron .my_btn:active,
+.it-takes-two .my_btn:active,
+.jumbotron .my_btn:focus,
+.it-takes-two .my_btn:focus {
+    border: 2px solid var(--black);
+}
+
+.jumbotron .returnal-img {
+    width: 50%;
+}
+
+.jumbotron .jumbo-bottom .thumb-container {
+    border-radius: 1.5em;
+    border: 1px solid var(--white);
+    transition-duration: 1s;
+}
+
+.jumbotron .jumbo-bottom .thumb-container:hover {
+    transform:translateY(-1em);
+}
+
+.jumbotron .jumbo-bottom .bordered-blue {
+    border: 1px solid var(--light-blue);
+}
+
+.jumbotron .jumbo-bottom .thumb-container img {
+    width: 100%;
+    border-radius: 1.5em;
+    padding: 0.25rem;
+}
+
+/* Main */
+
+main .grey {
+    color: var(--grey-text);
+}
+
+main p.bigger-text {
+    font-size: 1.3rem;
+}
+
+main .blue {
+    color: var(--light-blue);
+}
+
+h2.my_h2 {
+    font-size: 2.5rem;
+    line-height: 1;
+}
+
+h3.my_h3 {
+    font-size: 2.5rem;
+}
+
+main .playstation5 .my_btn {
+    background-color: var(--blue);
+    outline: 2px solid var(--blue);
+}
+
+main .playstation5 .mb3em {
+    margin-bottom: 3em;
+}
+
+main .playstation5 .container-thumb {
+    height: 100%;
+    filter: opacity(0.5);
+    transition-duration: 0.5s;
+}
+
+main .playstation5 .container-thumb:hover {
+    filter: opacity(1);
+}
+
+main .playstation5 .container-thumb.active {
+    border-bottom: 2px solid var(--light-blue);
+    filter: opacity(1);
+}
+
+main img.w-70 {
+    width: 70%;
+}
+
+/* It takes two */
+.it-takes-two .itt {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    color: var(--white);
+}
+
+.it-takes-two .logo-img {
+    width: 50%;
+}
+
+.it-takes-two .my_btn {
+    background-color: var(--orange-btn);
+    outline: 2px solid var(--orange-btn);
+}
+
+/* New releases */
+.new-releases .nr {
+    background-color: var(--grey-bg);
+    color: var(--white);
+}
+
+.new-releases .nr a {
+    color: var(--white);
+    font-size: 1.2rem;
+}
+
+h3.regular {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.new-releases .nr .nr-thumb-container {
+    border-radius: 1.5em;
+}
+
+.new-releases .nr .nr-thumb-container img {
+    width: 100%;
+    border-radius: 1.5em;
+}
+
+/* Explore Playstation 4 */
+.explore-playstation4 .container-thumb .my_btn {
+    background-color: var(--blue);
+    outline: 2px solid var(--blue);
+    width: 135px;
+}
+
+/* Playstation Plus */
+.playstation-plus .logo-img {
+    width: 50%;
+}
+
+.playstation-plus .play-plus {
+    background-color: var(--ps-plus-bg);
+}
+
+.playstation-plus .play-plus .my_btn {
+    background-color: var(--ps-plus-btn);
+    outline: 2px solid var(--ps-plus-btn);
+    color: var(--blue);
+}
+
+.playstation-plus .play-plus .my_btn:hover,
+.playstation-plus .play-plus .my_btn:active,
+.playstation-plus .play-plus .my_btn:focus {
+    border: 2px solid var(--blue);
+}
+
+/* Playstation Now */
+.playstation-now .logo-img {
+    width: 50%;
+}
+
+.playstation-now .play-now {
+    background-color: var(--ps-now-bg);
+    color: var(--white);
+}
+
+.playstation-now .play-now .my_btn {
+    background-color: var(--ps-now-btn);
+    outline: 2px solid var(--ps-now-btn);
+    color: var(--black);
+}
+
+.playstation-now .play-now .my_btn:hover,
+.playstation-now .play-now .my_btn:active,
+.playstation-now .play-now .my_btn:focus {
+    border: 2px solid var(--black);
+}
+
+/* Social media */
+.social-media img {
+    height: 130px;
+}
+
+/* Footer  */
+footer .footer {
+    background-color: var(--footer-bg);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: var(--white);
+    font-size: 0.9rem;
+}
+
+footer .footer .footer-top img {
+    width: 120px;
+}
+
+footer .footer a {
+    color: var(--white);
+}
+
+footer .footer li {
+    list-style-type: none;
+}
+
+footer .footer-bottom img {
+    width: 170px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .navbar-collapse .navbar-nav .nav-item .my_search_button {
+        width: 100%;
+        border: 1px solid var(--black);
+        padding: 0.5em;
+        margin-top: 0.5em;
+    }
+
+    .navbar-collapse .navbar-nav .nav-item .my_btn {
+        width: 50%;
+        padding: 0.3em;
+    }
+
+    footer .footer .footer-link {
+        margin-top: 4rem;
+    }
+
+    footer .footer .footer-bottom {
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .playstation-plus .play-plus .pp-contain {
+        padding: 3rem 0;
+    }
+    
+}
+
+@media screen and (max-width: 575.98px) {
+    .social-media img {
+        width: 100%;
+        height: 100%;
+    }
+}
