@@ -94,7 +94,8 @@ header .my_btn:focus {
     border: 0;
     font-weight: 900;
     font-size: 0.8em;
-    vertical-align: middle;   
+    vertical-align: middle;
+    color: var(--grey-text);   
 }
 
 .navbar-light .navbar-nav .dropdown .dropdown-toggle.show::after {
