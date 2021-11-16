@@ -53,7 +53,15 @@ header .nav-top svg {
     height: 15px;
 }
 
-header .navbar-bottom ul.my_dropdown_menu a>img {
+header .nav-bottom {
+    font-size: 0.8rem;
+}
+
+header .nav-bottom .navbar-brand svg {
+    width: 40px;
+}
+
+header .nav-bottom ul.my_dropdown_menu a>img {
     height: 3rem;
 }
 
@@ -64,6 +72,7 @@ header li a>img.lens {
 header .my_btn {
     background-color: var(--nav-btn-bg);
     outline: 2px solid var(--nav-btn-bg);
+    font-size: 1rem;
 }
 
 header .my_btn:hover,
@@ -77,7 +86,7 @@ header .my_btn:focus {
     margin-top: -1px;
 }
 
-.navbar-light .navbar-nav .nav-link.my_nav {
+.navbar-light .navbar-nav .nav-link {
     color: var(--black);
 }
 
@@ -121,6 +130,15 @@ header .my_btn:focus {
     background-color: var(--white);
     box-shadow: 0;
     color: var(--light-blue);
+}
+
+/* Secondary navbar */
+.secondary-nav .navbar .navbar-brand img {
+    width: 200px;
+}
+
+.navbar-light .navbar-nav .nav-item.active {
+    border-bottom: 3px solid var(--light-blue);
 }
 
 /* Jumbotron */
