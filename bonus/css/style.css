@@ -137,13 +137,27 @@ header .my_btn:focus {
     width: 200px;
 }
 
+.secondary-nav .navbar {
+    height: 60px;
+}
+
+.secondary-nav .navbar .navbar-toggler {
+    left: 230px;
+}
+
+.secondary-nav .navbar .collapse.navbar-collapse {
+    left: 50%;
+    top: 1%;
+    transform: translate(-50%, 0%);
+}
+
 .navbar-light .navbar-nav .nav-item.active {
     border-bottom: 3px solid var(--light-blue);
 }
 
 /* Jumbotron */
 .jumbotron .jumbo-top {
-    background-image: url(../img/jumbo-bg.png);
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/media-remote-hero-01-ps5-en-18sep20?$native--t$);
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
@@ -151,12 +165,21 @@ header .my_btn:focus {
 }
 
 .jumbotron .jumbo-top .jumbo-top-contain {
-    padding-top: 17em;
+    padding-top: 4em;
+    padding-bottom: 15em;
 }
 
-.jumbotron .my_btn {
-    background-color: var(--orange-btn);
-    outline: 2px solid var(--orange-btn);
+.jumbotron .jumbo-top .container .bg-white-opac {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.jumbotron .jumbo-top .my_h2 {
+    color: var(--blue);
+    font-weight: 300;
+}
+
+.jumbotron .jumbo-top p {
+    color: var(--grey-text);
 }
 
 .jumbotron .my_btn:hover,
@@ -166,30 +189,6 @@ header .my_btn:focus {
 .jumbotron .my_btn:focus,
 .it-takes-two .my_btn:focus {
     border: 2px solid var(--black);
-}
-
-.jumbotron .returnal-img {
-    width: 50%;
-}
-
-.jumbotron .jumbo-bottom .thumb-container {
-    border-radius: 1.5em;
-    border: 1px solid var(--white);
-    transition-duration: 1s;
-}
-
-.jumbotron .jumbo-bottom .thumb-container:hover {
-    transform:translateY(-1em);
-}
-
-.jumbotron .jumbo-bottom .bordered-blue {
-    border: 1px solid var(--light-blue);
-}
-
-.jumbotron .jumbo-bottom .thumb-container img {
-    width: 100%;
-    border-radius: 1.5em;
-    padding: 0.25rem;
 }
 
 /* Main */
